@@ -1,3 +1,3 @@
 # Super Nerd and Wonder Woman
 
-The ideas, rambling, and journal of two nerds
+The ideas, ramblings, and journal of two nerds.
