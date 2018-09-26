@@ -29,7 +29,8 @@ div, body {
 }
 
 img {
-  margin-left: -75px;
+  max-width: 100%; 
+  height: auto;
 }
 
 p {
