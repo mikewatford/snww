@@ -56,3 +56,8 @@ p {
   -o-transform: translate(0,-50px); 
   -moz-transform: translate(0,-50px);
 }
+
+.social {
+  margin-top: 30px;
+  justify-content:center;
+}
