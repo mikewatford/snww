@@ -1,0 +1,53 @@
+.travel-card {
+    width: 280px;
+    height: 420px;
+    margin: 10px;
+    background:white;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+    @media screen and (max-width: 40em) {
+        margin: 10px auto;
+    }
+
+  }
+
+  .tc-tint {
+    height: 415px;
+    opacity: 1;
+    background-color: rgba(0,0,0,.5);
+    background-size: cover;
+    z-index: 1;
+  }
+  
+  .tc-content {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:bold;
+    position: absolute;
+    bottom: 0;
+    line-height: 30px;
+    padding: 20px;
+    color: white;
+  }
+
+  .tc-line-gradient {
+      height: 6px;
+      background: -webkit-linear-gradient(left, #000000, #910D91);
+      background: linear-gradient(to right, #070707, #8e12ce);
+  }
+  
+  .city {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 48px;
+    color: white;
+  }
+
+  .btn {
+    width: 120px;
+    border: 2px solid white;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
