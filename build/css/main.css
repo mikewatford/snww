@@ -98,6 +98,33 @@ main {
 .spacer {
   padding: 40px 0; }
 
+.home-bg {
+  background-image: url(../images/home.jpg); }
+
+.journal-bg {
+  background-image: url(../images/journal.jpg); }
+
+.about-bg {
+  background-image: url(../images/about.jpg); }
+
+.podcast-bg {
+  background-image: url(../images/podcast.jpg); }
+
+.travel-bg {
+  background-image: url(../images/travel.jpg); }
+
+.empty-begin {
+  background-image: url(../images/empty-begin.jpg); }
+
+.empty-end {
+  background-image: url(../images/empty-end.jpg); }
+
+.category-bg {
+  background-image: url(../images/category-bg.jpg); }
+
+.category-beer {
+  background-image: url(../images/category-beer.jpg); }
+
 .hero-position {
   top: 20%;
   position: relative; }
