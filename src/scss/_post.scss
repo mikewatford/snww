@@ -5,7 +5,7 @@
     font-size: 14px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    width: 120px;
+    width: 160px;
     background-color: black;
     padding: 3px;
     margin-bottom: 10px;
@@ -95,8 +95,8 @@ main a:hover {
     text-decoration: none;
 }
 
-  img { 
-    max-width: 100%; 
+  main img { 
+    width: 100vw; 
   } 
   
   .full-width {
@@ -154,11 +154,13 @@ main a:hover {
 	text-align: right;
 
 	@media only screen and (max-width: 40em) {
-			line-height: 32px;
+            line-height: 32px;
+            font-size: 30px;
 		}
 
 	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-			line-height: 52px;
+            line-height: 52px;
+            font-size: 30px;
 		}
 }
 
@@ -174,11 +176,13 @@ main a:hover {
 	text-align: left;
 
 	@media only screen and (max-width: 40em) {
-			line-height: 32px;
+            line-height: 32px;
+            font-size: 36px;
 		}
 
 	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-			line-height: 52px;
+            line-height: 52px;
+            font-size: 36px;
 		}
 }
 
@@ -192,7 +196,8 @@ main a:hover {
 	text-align: right;
 
 	@media only screen and (max-width: 40em) {
-			line-height: 35px;
+            line-height: 35px;
+            font-size: 28px;
 		}
 }
 
@@ -204,10 +209,13 @@ main a:hover {
 	margin-left: 40px;
 	color: white;
 	text-align: left;
+}
 
-	@media only screen and (max-width: 40em) {
-			line-height: 35px;
-		}
+@media only screen and (max-width: 40em) {
+    .previous-router-title {
+        line-height: 35px;
+        font-size: 28px;
+    }
 }
 
   .next-previous {
@@ -229,4 +237,13 @@ main a:hover {
 	opacity:0.3;
 	z-index: 2;
 	display: block;
+}
+
+.posts-none {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.posts-none h3 {
+	font-family: 'Permanent Marker', cursive
 }

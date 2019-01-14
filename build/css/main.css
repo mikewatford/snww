@@ -98,6 +98,9 @@ main {
 .spacer {
   padding: 40px 0; }
 
+.not-found-bg {
+  background-image: url(../images/404.jpg); }
+
 .home-bg {
   background-image: url(../images/home.jpg); }
 
@@ -106,6 +109,15 @@ main {
 
 .about-bg {
   background-image: url(../images/about.jpg); }
+
+.mike-bg {
+  background-image: url(../images/mike.jpg); }
+
+.angel-bg {
+  background-image: url(../images/angel.jpg); }
+
+.author-bg {
+  background-image: url(../images/author.jpg); }
 
 .podcast-bg {
   background-image: url(../images/podcast.jpg); }
@@ -172,7 +184,7 @@ main {
   font-size: 14px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  width: 120px;
+  width: 160px;
   background-color: black;
   padding: 3px;
   margin-bottom: 10px; }
@@ -236,8 +248,8 @@ main a:hover {
   color: #8e12ce;
   text-decoration: none; }
 
-img {
-  max-width: 100%; }
+main img {
+  width: 100vw; }
 
 .full-width {
   width: 100vw;
@@ -334,6 +346,13 @@ figcaption {
   z-index: 2;
   display: block; }
 
+.posts-none {
+  text-align: center;
+  padding: 50px 0; }
+
+.posts-none h3 {
+  font-family: 'Permanent Marker', cursive; }
+
 .travel-card {
   width: 280px;
   height: 420px;
@@ -427,6 +446,9 @@ footer {
   overflow: auto;
   color: white; }
 
+footer img {
+  width: auto; }
+
 .social {
   margin-top: 50px; }
 
@@ -465,16 +487,22 @@ footer {
 
 @media only screen and (max-width: 40em) {
     .next {
-      line-height: 32px; }
+      line-height: 32px;
+      font-size: 30px; }
     .previous {
-      line-height: 32px; }
+      line-height: 32px;
+      font-size: 36px; }
     .next-router-title {
-      line-height: 35px; }
-    .previous-router-title {
-      line-height: 35px; } }
+      line-height: 35px;
+      font-size: 28px; }
+  .previous-router-title {
+    line-height: 35px;
+    font-size: 28px; } }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .next {
-      line-height: 52px; }
+      line-height: 52px;
+      font-size: 30px; }
     .previous {
-      line-height: 52px; } }
+      line-height: 52px;
+      font-size: 36px; } }
