@@ -100,13 +100,35 @@ main a:hover {
   } 
   
   .full-width {
-    width: 100vw;
+    width: 70vw;
     position: relative;
-    left: 50%;
+    left: 80%;
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
   }
+
+@media only screen and (max-width: 40em) {
+	.full-width {
+	    width: 100vw;
+	    position: relative;
+	    left: 50%;
+	    right: 50%;
+	    margin-left: -50vw;
+	    margin-right: -50vw;
+  	}
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .full-width {
+	    width: 100vw;
+	    position: relative;
+	    left: 50%;
+	    right: 50%;
+	    margin-left: -50vw;
+	    margin-right: -50vw;
+  	}
+}
 
   p {
     font-family: 'Roboto', sans-serif;
