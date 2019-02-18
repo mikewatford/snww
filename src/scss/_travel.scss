@@ -30,6 +30,14 @@
     color: white;
   }
 
+.tc-content a {
+  color: white; 
+}
+
+.tc-content a:hover {
+  color: white; 
+}
+
   .tc-line-gradient {
       height: 6px;
       background: -webkit-linear-gradient(left, #000000, #910D91);
@@ -49,4 +57,3 @@
     text-align: center;
     margin-top: 10px;
   }
-  
