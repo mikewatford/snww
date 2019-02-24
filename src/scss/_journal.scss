@@ -5,6 +5,13 @@
     z-index: 1;
 }
 
+.v-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
 .thumb-title {
     font-family: 'Permanent Marker', cursive;
     color: white;
