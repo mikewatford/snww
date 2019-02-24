@@ -47,3 +47,5 @@
     color: black;
     text-decoration: none;
 }
+
+.slideup{visibility:visible!important}.slideUp{animation-timing-function:ease;animation-duration:1s}@keyframes slideDown{0%{transform:translateY(-100%);opacity:0}100%{transform:translateY(0);opacity:1}}@-webkit-keyframes slideDown{0%{-webkit-transform:translateY(-100%);opacity:0}100%{-webkit-transform:translateY(0);opacity:1}}.slideUp{animation-name:slideUp;-webkit-animation-name:slideUp;-webkit-animation-duration:1s;-webkit-animation-timing-function:ease}@keyframes slideUp{0%{transform:translateY(100%);opacity:0}100%{transform:translateY(0);opacity:1}}@-webkit-keyframes slideUp{0%{-webkit-transform:translateY(100%);opacity:0}100%{-webkit-transform:translateY(0);opacity:1}}
