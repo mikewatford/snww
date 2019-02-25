@@ -15,7 +15,7 @@
 
 ## 1.0.1 (2/22/19)
 
-## Bug Fixes
+### Bug Fixes
 - Decreased page heading size to 52px
 - Added bottom margin to the About page
 
