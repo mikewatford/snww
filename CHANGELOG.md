@@ -1,3 +1,8 @@
+## 1.1.1 (2/25/19)
+
+### Breaking Changes
+- Updated Post title size to small-10 from small-6
+
 ## 1.1.0 (2/24/19)
 
 ### Breaking Changes
