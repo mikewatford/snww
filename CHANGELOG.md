@@ -1,3 +1,8 @@
+## 1.1.2 (2/26/19)
+
+### Bug Fixes
+- Updated travel page with 'location' post type
+
 ## 1.1.1 (2/25/19)
 
 ### Breaking Changes
