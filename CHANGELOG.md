@@ -1,3 +1,8 @@
+## 1.1.3 (2/26/19)
+
+### Features
+- Journal query now searches for both wp-posts and cpt posts
+
 ## 1.1.2 (2/26/19)
 
 ### Bug Fixes
