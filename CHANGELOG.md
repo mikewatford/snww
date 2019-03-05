@@ -1,3 +1,8 @@
+## 1.1.4 (3/4/19)
+
+### Bug Fixes
+- Author pages now query both wp and cpt posts
+
 ## 1.1.3 (2/26/19)
 
 ### Features
