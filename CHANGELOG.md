@@ -2,6 +2,8 @@
 
 ### Bug Fixes
 - Author pages now query both wp and cpt posts
+- Removed style tag with background image
+- Added query to functions.php
 
 ## 1.1.3 (2/26/19)
 
