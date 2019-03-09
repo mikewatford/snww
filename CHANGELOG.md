@@ -1,3 +1,11 @@
+## 1.2.0 (3/9/19)
+
+### Features
+- Added pagination to Author pages
+- Updated functions with paginate array
+- Added paginate styles
+- Added overwrite styles for .wp-block-image
+
 ## 1.1.4 (3/4/19)
 
 ### Bug Fixes
