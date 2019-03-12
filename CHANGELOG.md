@@ -1,3 +1,11 @@
+## 1.3.0 (3/11/19)
+
+### Features
+- Added mod to get adjacent posts
+- Now pulls in posts and CPTs
+- Updated single.php with post array
+- Updated STG with post array and prev/next links
+
 ## 1.2.0 (3/9/19)
 
 ### Features
