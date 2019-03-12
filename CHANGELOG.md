@@ -1,3 +1,9 @@
+## 1.3.1 (3/12/19)
+
+### Features
+- Moved all static images to a subdomain
+- Updated css, home, index, header, and footer image locations
+
 ## 1.3.0 (3/11/19)
 
 ### Features
